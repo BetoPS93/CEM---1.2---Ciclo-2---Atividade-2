@@ -1,0 +1,17 @@
+@import url(estilos/cabecalho.css);
+
+:root {
+    --amarelo: #E0C113;
+    --vermelho: #D2003C;
+    --branco: #FFFFFF;
+    --cinza-escuro: #1A2634;
+    --cinza-claro: #333F4D;
+    --fundo-menu-de-navegacao: rgba(0,15,30,.4);
+    --fonte-principal: "Roboto";
+}
+
+body {
+    background-color: #e6e6e6;
+    font-family: var(--fonte-principal), sans-serif;
+    font-size: 16px;
+}
