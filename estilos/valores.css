@@ -1,0 +1,14 @@
+.valores {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.valores__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartao {
+    width: 20%;
+}

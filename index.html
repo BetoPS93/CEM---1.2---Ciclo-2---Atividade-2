@@ -12,47 +12,47 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500;1,900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <title>Xtreme | Experiências radicais</title>
 </head>
 
 <body>
     <main class="principal">
-        <div class="principal__divisao">
-            <header class="cabecalho__container">
-                <div class="cabecalho__logo">
-                    <a href="#"><img src="imgs/Xtreme.png" alt="Logotipo" class="cabecalho__logo-img"></a>
-                </div>
-                <nav class="navegacao">
-                    <ul class="navegacao__lista">
-                        <div class="navegacao__item-container">
-                            <li class="navegacao__item"><a href="#" class="navegacao__link">Início</a></li>
-                        </div>
-                        <div class="navegacao__item-container">
-                            <li class="navegacao__item"><a href="#" class="navegacao__link">Sobre</a></li>
-                        </div>
-                        <div class="navegacao__item-container">
-                            <li class="navegacao__item"><a href="#" class="navegacao__link">Produtos</a></li>
-                        </div>
-                        <div class="navegacao__item-container">
-                            <li class="navegacao__item"><a href="#" class="navegacao__link">Blog</a></li>
-                        </div>
-                        <div class="navegacao__item-container">
-                            <li class="navegacao__item"><a href="#" class="navegacao__link">Contato</a></li>
-                        </div>
-                    </ul>
-                </nav>
-                <div class="cabecalho__botoes">
-                    <a href="#"><img src="imgs/user.png" alt="Login"></a>
-                    <a href="#"><img src="imgs/search.png" alt="Pesquisar"></a>
-                </div>
-            </header>
-            <div class="principal__foto-opacidade"><img src="imgs/pexels-michael-noel-4673204.jpg"
-                    alt="Carro em um rally" class="principal__foto"></div>
-            <div class="principal__titulo">
-                <h1><span class="principal__titulo-destaque">Xtreme</span></h1>
-                <p>experiências radicais.</p>
+        <header class="cabecalho__container">
+            <div class="cabecalho__logo">
+                <a href="#"><img src="imgs/Xtreme.png" alt="Logotipo" class="cabecalho__logo-img"></a>
             </div>
+            <nav class="navegacao">
+                <ul class="navegacao__lista">
+                    <div class="navegacao__item-container">
+                        <li class="navegacao__item"><a href="#" class="navegacao__link">Início</a></li>
+                    </div>
+                    <div class="navegacao__item-container">
+                        <li class="navegacao__item"><a href="#" class="navegacao__link">Sobre</a></li>
+                    </div>
+                    <div class="navegacao__item-container">
+                        <li class="navegacao__item"><a href="#" class="navegacao__link">Produtos</a></li>
+                    </div>
+                    <div class="navegacao__item-container">
+                        <li class="navegacao__item"><a href="#" class="navegacao__link">Blog</a></li>
+                    </div>
+                    <div class="navegacao__item-container">
+                        <li class="navegacao__item"><a href="#" class="navegacao__link">Contato</a></li>
+                    </div>
+                </ul>
+            </nav>
+            <div class="cabecalho__botoes">
+                <a href="#"><img src="imgs/user.png" alt="Login"></a>
+                <a href="#"><img src="imgs/search.png" alt="Pesquisar"></a>
+            </div>
+        </header>
+        <div class="principal__foto-opacidade"><img src="imgs/pexels-michael-noel-4673204.jpg" alt="Carro em um rally"
+                class="principal__foto"></div>
+        <div class="principal__titulo">
+            <h1><span class="principal__titulo-destaque">Xtreme</span></h1>
+            <p>experiências radicais.</p>
         </div>
+
     </main>
     <section class="sobre">
         <div class="sobre__divisao">
@@ -128,6 +128,99 @@
             </div>
         </div>
     </section>
+    <section class="carrossel">
+        <div class="carrossel__bgcolor">
+            <h2 class="sobre__titulo"><span class="sobre__titulo-destaque">Nossos</span> produtos, <span
+                    class="sobre__titulo-destaque">Suas</span> experiências.</h2>
+            <!-- Slider main container -->
+            <div class="carrossel__container">
+                <div class="swiper">
+
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="imgs/equipa/outrosem.png" alt="livro de acessibilidade">
+                        </div>
+                        <div class="swiper-slide"><img src="imgs/equipa/outrosem.png" alt="Angular"></div>
+                        <div class="swiper-slide"><img src="imgs/equipa/outrosem.png" alt="ApacheKafka"></div>
+                        <div class="swiper-slide"><img src="imgs/equipa/outrosem.png" alt="Arquitetura"></div>
+                        <div class="swiper-slide"><img src="imgs/equipa/outrosem.png" alt="Construct2"></div>
+                        <div class="swiper-slide"><img src="imgs/equipa/outrosem.png" alt="Gestão"></div>
+                    </div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="valores">
+        <h2 class="sobre__titulo"><span class="sobre__titulo-destaque">Nossa</span> história, <span
+            class="sobre__titulo-destaque">Suas</span> histórias.</h2>
+        <div class="valores__container">
+            <article class="cartao">
+                <img src="imgs/equipa/meninosem fundo.png" alt="Vídeo VH1" class="cartao__imagem">
+                <div class="cartao__conteudo">
+                    <p class="cartao__perfil">André Soares</p>
+                    <h3 class="cartao__titulo">HZC - Tudo sem padrim</h3>
+                    <p class="cartao__info cartao__info--tempo">15 Minutos</p>
+                    <button class="cartao__botao cartao__botao--play" aria-label="Assistir Agora"></button>
+                </div>
+            </article>
+            <article class="cartao">
+                <img src="imgs/equipa/meninosem fundo.png" alt="Vídeo VH1" class="cartao__imagem">
+                <div class="cartao__conteudo">
+                    <p class="cartao__perfil">Bruno Lopez</p>
+                    <h3 class="cartao__titulo">HZC - Enter the hu-flex</h3>
+                    <p class="cartao__info cartao__info--tempo">33 Minutos</p>
+                    <button class="cartao__botao cartao__botao--play" aria-label="Assistir Agora"></button>
+                </div>
+            </article>
+            <article class="cartao">
+                <img src="imgs/equipa/meninosem fundo.png" alt="Vídeo VH1" class="cartao__imagem">
+                <div class="cartao__conteudo">
+                    <p class="cartao__perfil">Luiza Sampaio</p>
+                    <h3 class="cartao__titulo">HZC - Vol3</h3>
+                    <p class="cartao__info cartao__info--tempo">33 Minutos</p>
+                    <button class="cartao__botao cartao__botao--play" aria-label="Assistir Agora"></button>
+                </div>
+            </article>
+            <article class="cartao">
+                <img src="imgs/equipa/meninosem fundo.png" alt="Vídeo VH1" class="cartao__imagem">
+                <div class="cartao__conteudo">
+                    <p class="cartao__perfil">Bruno Lopez</p>
+                    <h3 class="cartao__titulo">HZC - Love machine</h3>
+                    <p class="cartao__info cartao__info--tempo">33 Minutos</p>
+                    <button class="cartao__botao cartao__botao--play" aria-label="Assistir Agora"></button>
+                </div>
+            </article>
+        </div>
+        <section class="politicas">
+
+        </section>
+        <section class="contato">
+
+        </section>
+        <footer>
+            
+        </footer>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
 </body>
 
 </html>

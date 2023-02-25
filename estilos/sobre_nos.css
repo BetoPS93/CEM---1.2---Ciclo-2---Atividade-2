@@ -20,6 +20,8 @@
     font-size: 3em;
     display: inline-block;
     width: 2em;
+    padding-bottom: .2em;
+    margin-top: 1em;
 }
 
 .sobre__titulo-destaque {
@@ -34,7 +36,7 @@
 
 .sobre__imagem {
     width: 40%;
-    
+
 }
 
 .sobre__imagem-foto {
@@ -44,45 +46,38 @@
 }
 
 .sobre__equipe {
-    margin-bottom: 6em;
-    padding: 8em 0;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.sobre__divisao-card{
-    padding: 8em 0;
-    width: 20%;
-    
+    justify-content: space-between;
+    position: relative;
+    top: -4em;
 }
 
 .sobre__card {
-    position: absolute;
     text-align: center;
-    width: 20em;
-    border: 1px solid var(--branco);
-    border-radius: 35px;
     color: var(--branco);
-    background-color: var(--cinza-escuro);
-    height: 22em;
+}
+
+.sobre__divisao-card {
+    width: 20%;
 }
 
 .sobre__avatar {
+    width: 98%;
     position: relative;
-    top: -14em;
+    top: 6em;
 }
 
 .sobre__descricao {
-    position: relative;
-    top: -13em;
-    padding: 2em;
+    padding: 8em 2em 2em 2em;
+    border: 1px solid var(--branco);
+    border-radius: 35px;
+    background-color: var(--cinza-escuro);
 }
 
 .sobre__descricao-titulo {
- padding-bottom: 1em;
+    padding-bottom: 1.8em;
 }
 
 .sobre__descricao-paragrafo {
-    padding-bottom: .5em;
+    padding-bottom: 1em;
 }

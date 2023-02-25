@@ -1,0 +1,13 @@
+.carrossel {
+    background-color: var(--cinza-claro);
+}
+
+.carrossel__bgcolor {
+    width: 80vw;
+    margin: 0 auto;
+    padding-bottom: 3em;
+}
+
+.carrossel__container {
+    margin: 2em 0;
+}

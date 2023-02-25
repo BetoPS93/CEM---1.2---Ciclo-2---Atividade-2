@@ -2,12 +2,6 @@
     height: 65vh;
 }
 
-.principal__divisao {
-    position: absolute;
-    height: 65vh;
-    overflow: hidden;
-}
-
 .cabecalho__logo {
     width: 7%;
     overflow: hidden;
@@ -64,31 +58,31 @@
 
 .principal__foto-opacidade {
     background-color: rgba(0,22,43,.78);
-    position: relative;
-    top: -20em;
-    width: 100%;
+    position: absolute;
+    top: 0vw;
+    height: 70vh;
+    overflow: hidden;
 }
 
 .principal__foto {
-    position: relative;
-    top: -12em;
     z-index: -1;
+    position: relative;
     width: 100%;
 }
 
 .principal__titulo {
     text-align: center;
-    display: block;
     position: relative;
-    top: -35em;
+    top: 4em;
+    font-size: 1.5em;
     font-weight: 900;
     color: var(--branco);
-    font-size: 2em;
-    line-height: 2.5em;
+    line-height: 2.25em;
 }
 
 .principal__titulo-destaque{
     color: red;
     font-size: 4em;
     border-bottom: 1px solid var(--branco);
+    padding-bottom: .01em;
 }
