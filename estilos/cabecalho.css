@@ -1,7 +1,11 @@
 .principal {
-    position: absolute;
-    overflow: hidden;
     height: 65vh;
+}
+
+.principal__divisao {
+    position: absolute;
+    height: 65vh;
+    overflow: hidden;
 }
 
 .cabecalho__logo {

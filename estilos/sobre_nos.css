@@ -1,0 +1,88 @@
+.sobre {
+    width: 80vw;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+
+.sobre__divisao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sobre__textos {
+    width: 55%;
+}
+
+.sobre__titulo {
+    border-bottom: 3px solid;
+    font-weight: 500;
+    font-size: 3em;
+    display: inline-block;
+    width: 2em;
+}
+
+.sobre__titulo-destaque {
+    color: var(--vermelho);
+}
+
+.sobre__paragrafo {
+    line-height: 1.5em;
+    font-size: 1.2em;
+    padding: 2em 0;
+}
+
+.sobre__imagem {
+    width: 40%;
+    
+}
+
+.sobre__imagem-foto {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 5px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.sobre__equipe {
+    margin-bottom: 6em;
+    padding: 8em 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sobre__divisao-card{
+    padding: 8em 0;
+    width: 20%;
+    
+}
+
+.sobre__card {
+    position: absolute;
+    text-align: center;
+    width: 20em;
+    border: 1px solid var(--branco);
+    border-radius: 35px;
+    color: var(--branco);
+    background-color: var(--cinza-escuro);
+    height: 22em;
+}
+
+.sobre__avatar {
+    position: relative;
+    top: -14em;
+}
+
+.sobre__descricao {
+    position: relative;
+    top: -13em;
+    padding: 2em;
+}
+
+.sobre__descricao-titulo {
+ padding-bottom: 1em;
+}
+
+.sobre__descricao-paragrafo {
+    padding-bottom: .5em;
+}
