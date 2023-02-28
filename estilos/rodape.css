@@ -1,0 +1,36 @@
+.rodape {
+    text-align: center;
+    background-color: var(--cinza-escuro);
+    color: var(--branco);
+    padding: 4em 0;
+    color: var(--branco);
+}
+
+.rodape__secao {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.rodape__logo-img {
+    width: 10%;
+}
+
+.rodape__navegacao {
+    padding: 3em 0;
+}
+
+.rodape__navegacao-lista {
+    display: flex;
+    justify-content: center;
+}
+
+.rodape__navegacao-link {
+    text-decoration: none;
+    padding: 1em;
+    color: var(--branco);
+}
+
+.rodape__navegacao-link:hover {
+    border-bottom: 1px solid white;
+    padding-bottom: .2em;
+}

@@ -1,7 +1,7 @@
 .sobre {
     width: 80vw;
-    margin: 0 auto;
-    padding: 2em 0;
+    margin: 2em auto;
+    padding: 0 0;
 }
 
 .sobre__divisao {
@@ -59,7 +59,13 @@
 
 .sobre__divisao-card {
     width: 20%;
+    transition: ease-in-out .5s;
 }
+
+.sobre__divisao-card:hover {
+    transition: ease-in-out .5s;
+    transform: scale(1.1);
+} 
 
 .sobre__avatar {
     width: 98%;
@@ -72,10 +78,14 @@
     border: 1px solid var(--branco);
     border-radius: 35px;
     background-color: var(--cinza-escuro);
+    height: 10em;
 }
 
 .sobre__descricao-titulo {
     padding-bottom: 1.8em;
+    font-weight: 500;
+    font-size: larger;
+    color: var(--vermelho);
 }
 
 .sobre__descricao-paragrafo {

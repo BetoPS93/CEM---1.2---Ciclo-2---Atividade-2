@@ -1,0 +1,37 @@
+.contato {
+    background-color: var(--cinza-claro);
+    padding-bottom: 2em;
+    color: var(--branco);
+}
+
+.contato__divisao {
+    width: 80vw;
+    margin: 2em auto;
+    display: flex;
+    align-items: baseline;
+}
+
+.contato__divisao-int {
+    padding-left: 10em;
+}
+
+.contato__rotulos {
+    display: block;
+    padding: 1em 0 .5em 0;
+}
+
+.contato__pref {
+    display: flex;
+    margin: .5em 1em 1em 0;
+    padding: .5em 0;
+}
+
+.contato__turno {
+    margin: .5em 1em 1em 0;
+}
+
+.enviar {
+    display: block;
+    padding: 1em;
+    margin: 1em;
+}

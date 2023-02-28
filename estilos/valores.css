@@ -1,14 +1,46 @@
 .valores {
     width: 80vw;
-    margin: 0 auto;
+    margin: 2em auto;
 }
 
 .valores__container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    padding-bottom: 2em;
 }
 
-.cartao {
-    width: 20%;
+.valores__card {
+    text-align: center;
+    width: 30%;
+    transition: ease-in-out .5s;
+}
+
+.valores__card:hover {
+    transition: ease-in-out .5s;
+    transform: scale(1.1);
+}
+
+.valores__card-img {
+    width: 60%;
+}
+
+.valores__card-linha {
+    height: 20em;
+}
+
+.valores__card-titulo {
+    font-size: x-large;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 2em 0;
+}
+
+.valores__card-titulo-destaque {
+    color: var(--vermelho);
+}
+
+.valores__card-texto {
+    padding: 2em;
+    line-height: 1.25em;
 }
